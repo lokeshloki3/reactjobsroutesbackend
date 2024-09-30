@@ -21,6 +21,17 @@ plugins: [react()],
 }
 
 install Tailwind PostCSS method
+And also extend theme
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
+      gridTemplateColumns: {
+        '70/30': '70% 28%',
+      },
+    },
+  },
 
 Console Ninja Extension
 
